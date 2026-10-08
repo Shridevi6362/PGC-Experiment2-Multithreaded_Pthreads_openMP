@@ -2,12 +2,6 @@
 
 A comprehensive laboratory experiment analyzing thread creation, execution scheduling, workload distribution, race conditions, synchronization mechanisms, and performance scalability using POSIX Threads (Pthreads) and OpenMP.
 
----
-
-## Executive Summary
-
-This repository contains C implementations designed to explore concurrent and parallel execution models. The experiment progresses from basic thread management to advanced synchronization techniques, concluding with empirical performance benchmarks comparing Pthreads and OpenMP against a single-threaded baseline.
-
 ## Benchmark Results & Scaling Analysis
 The performance benchmark measures execution time for computing $10^9$ floating-point loop iterations across $1, 2, 4, 6,$ and $16$ threads. All runs produce a validated sum of $499,999,999,500.00$.
 ### Performance Data
